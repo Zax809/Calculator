@@ -35,7 +35,7 @@ while True:
         elseif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
             
-        next = input("Another one? (yes/no): ")
+        nextn = input("Another one? (yes/no): ")
         if nextn == "no":
             break
     else:
